@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Black Ops One', cursive;
+    
+}
+
+body{
+    background: url("bg.avif");
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+.heading{
+    margin: 4% 3rem;
+    text-align: center;
+    font-size: 3rem;
+   color:beige;
+}
+
+.container{
+    width: 80vmin;
+    padding: 50px 40px;
+    background: rgba(6, 6, 6, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 5px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+
+}
+
+span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+}
+
+.joke{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 20px;
+    margin: 30px 0;
+    opacity: 0;
+}
+
+.fade{
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+
+#btn{
+    display: block;
+    background-color: #fab22e;
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+
+#btn:hover{
+    background-color: wheat;
+}
