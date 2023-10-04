@@ -81,10 +81,15 @@ body{
     color: rgb(28, 26, 26);
 }
 
-.example{
+.synonyms{
     color: rgb(28, 26, 26);
     padding: 14px;
     border-left: 4px solid cyan;
     font-style: italic;
     margin-top: 20px;
+}
+
+.error{
+    margin-top: 80px;
+    text-align: center;
 }
