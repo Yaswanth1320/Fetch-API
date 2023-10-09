@@ -60,3 +60,26 @@ body{
     margin-top: 1rem;
     padding: 0.5em;
 }
+
+.fact{
+    background: #fff;
+    box-shadow: 0 0 1.2em rgba(0, 4, 52, 0.1);
+    margin: 3rem auto 0 auto;
+    padding: 2.8rem 1.8rem;
+    border-radius: 8px;
+    border: none;
+    border-bottom: 0.6rem soild rgb(129, 51, 201) ;
+    display: none;
+}
+
+.fact h2{
+    font-size: 2.5rem;
+    color: black;
+}
+
+.fact p{
+    font-size: 1.15rem;
+    color: grey;
+    line-height: 1.5rem;
+    margin-top: 20px;
+}
